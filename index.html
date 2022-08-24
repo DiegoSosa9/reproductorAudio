@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Reproductor de audio - Diego Sosa</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Reproductor de audio</h1>
+        <div class="lista-canciones">
+            <div class="cancion">
+                <div class="name">
+                    Daddy Yankee - Campeón 
+                </div>
+                <div class="play" id="Daddy Yankee - Campeon (Video Lyric)">
+                    <span class="material-icons">
+                        play_circle
+                    </span>
+                </div>
+                <div class="stop">
+                    <span class="material-icons">
+                        cancel
+                    </span>
+                </div>
+                <div class="download">
+                    <a href="./audio/Daddy Yankee - Campeon (Video Lyric).mp3" download>
+                        <span class="material-icons">
+                            file_download
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="cancion">
+                <div class="name">
+                    Drake - Hotline Bling
+                </div>
+                <div class="play" id="Drake - Hotline Bling">
+                    <span class="material-icons">
+                        play_circle
+                    </span>
+                </div>
+                <div class="stop">
+                    <span class="material-icons">
+                        cancel
+                    </span>
+                </div>
+                <div class="download">
+                    <a href="./audio/Drake - Hotline Bling.mp3" download>
+                        <span class="material-icons">
+                            file_download
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="cancion">
+                <div class="name">
+                    Lali - Disciplina 
+                </div>
+                <div class="play" id="Lali - Disciplina (Official Video)">
+                    <span class="material-icons">
+                        play_circle
+                    </span>
+                </div>
+                <div class="stop">
+                    <span class="material-icons">
+                        cancel
+                    </span>
+                </div>
+                <div class="download">
+                    <a href="./audio/Lali - Disciplina (Official Video).mp3" download>
+                        <span class="material-icons">
+                            file_download
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="cancion">
+                <div class="name">
+                    The Beatles - Don't Let Me Down
+                </div>
+                <div class="play" id="The Beatles - Dont Let Me Down">
+                    <span class="material-icons">
+                        play_circle
+                    </span>
+                </div>
+                <div class="stop">
+                    <span class="material-icons">
+                        cancel
+                    </span>
+                </div>
+                <div class="download">
+                    <a href="./audio/The Beatles - Dont Let Me Down.mp3" download>
+                        <span class="material-icons">
+                            file_download
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p>Volumen</p>
+        <input type="range" max="1" min="0" class="volumen" step="0.01">
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

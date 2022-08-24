@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arvo', sans-serif;
+    background-color: skyblue;
+}
+
+.container {
+    width: 70vw;
+    height: 100vh;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lista-canciones{
+    width: 100%;
+}
+
+.cancion {
+    display: flex;
+    padding: 1rem 2rem;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid;
+}
+
+.name{
+    flex: 6;
+}
+
+.stop, .play, .download {
+    flex: 1;
+}
+
+h1{
+    margin-bottom: 1rem;
+}
+p{
+    margin-top: 1rem;
+}
